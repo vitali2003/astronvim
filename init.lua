@@ -26,6 +26,19 @@ return {
     underline = true,
   },
 
+  options = {
+    opt = {
+      -- relativenumber = false,
+    },
+    g = {
+      mapleader = " ",
+    },
+  },
+
+  header = {
+    -- " EPAM 2023",
+  },
+
   lsp = {
     -- customize lsp formatting options
     formatting = {
